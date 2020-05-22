@@ -1,0 +1,13 @@
+company\messaging\exchanges\QueueExchange.class
+company\web\Controller.class
+company\Starter.class
+company\config\RabbitConfig.class
+company\messaging\exchanges\DirectListener.class
+company\util\Instance.class
+company\messaging\exchanges\QueueListener.class
+company\messaging\producers\TopicProducer.class
+company\model\PublishedEntity.class
+company\messaging\listeners\TopicListener.class
+company\messaging\producers\PointProducer.class
+company\messaging\exchanges\PointToPointExchange.class
+company\messaging\listeners\PointToPointListener.class

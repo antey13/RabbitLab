@@ -1,0 +1,13 @@
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\producers\PointProducer.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\exchanges\QueueListener.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\producers\TopicProducer.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\Starter.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\model\PublishedEntity.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\config\RabbitConfig.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\listeners\TopicListener.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\util\Instance.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\listeners\PointToPointListener.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\exchanges\PointToPointExchange.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\exchanges\DirectListener.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\messaging\exchanges\QueueExchange.java
+C:\Users\sheld\IdeaProjects\RabbitMQLab\src\main\java\company\web\Controller.java
