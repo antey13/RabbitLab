@@ -12,6 +12,6 @@ import java.lang.annotation.*;
 @Documented
 @RabbitListener(bindings = @QueueBinding(value = @Queue(name = QueueExchange.QUEUE_NAME),
         exchange = @Exchange(name = QueueExchange.NAME, type = QueueExchange.TYPE),
-        key = "*"))
+        key = "*"),ackMode = "MANUAL")
 public @interface QueueListener {
 }

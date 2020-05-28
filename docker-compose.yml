@@ -2,6 +2,8 @@
   services:
     rabbitmq3:
       image: rabbitmq:3-management
+      volumes:
+        - ./myrabbit.conf:/etc/rabbitmq/rabbitmq.config
       ports:
         - "5672:5672"
         - "15672:15672"

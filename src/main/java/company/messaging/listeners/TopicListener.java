@@ -24,7 +24,7 @@ public class TopicListener {
                                           @Header(AmqpHeaders.DELIVERY_TAG) long tag){
         log.info("received message: {}. receiver id {}",message.getMessage(), Instance.getHostAddress());
         Thread.sleep(5000);
-        channel.basicAck(tag,true);
+        //channel.basicAck(tag,true);
         return message;
     }
 }

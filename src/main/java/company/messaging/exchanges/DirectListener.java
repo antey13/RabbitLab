@@ -10,6 +10,6 @@ import java.lang.annotation.*;
 @RabbitListener(bindings = @QueueBinding(value = @Queue(name = PointToPointExchange.QUEUE_NAME /*, arguments = {@Argument(name = "x-message-ttl",value = "60_000")
                                                                                                                 ,@Argument(name = "x-max-length",value= "10")}*/),
         exchange = @Exchange(name = PointToPointExchange.NAME, type = PointToPointExchange.TYPE),
-        key = "specific_point")/*, ackMode = "AUTO"*/)
+        key = "specific_point"), ackMode = "MANUAL")
 public @interface DirectListener {
 }
